@@ -1,0 +1,212 @@
+/*style.css*/
+
+body{
+	background:white;
+	color:#b3cde0;
+	font-family: Arial, Helvetica, Sans-sans-serif;
+}
+
+h1{
+	text-align: center;
+	color: black;
+}
+
+h2{
+	margin:5%;
+	font-size: 40px;
+	color: black;
+}
+
+p{
+	color: black;
+	text-align: left;
+	margin: 20px;
+
+
+}
+
+#services_descrip{
+	color: black;
+}
+
+#home_img{
+	width: 100%;
+	opacity: 50%;
+}
+
+footer{
+	background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+	position: fixed;
+   bottom: 0;
+   width: 97.5%;
+   height: 60px;   /* Height of the footer */
+   background: #6cf;
+}
+
+/*home page*/
+#homepage-image {
+	width:100%;
+	height:50%;
+	margin-top:-2.0%;
+
+}
+#mission-statement{
+	font-size:60px;
+	text-align:left;
+	margin-left:15%;
+	margin-right:25%;
+	position:absolute;
+	top: 300px;
+	right: -30px;
+}
+
+#statement{
+	position: absolute;
+	text-align: center;
+	top: 400px;
+	left: -10px;
+	font-size: 2em;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: lightblue;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: blue;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: blue;
+  color: white;
+}
+
+
+
+/*services page*/
+/* Style the header */
+header {
+  background-color: white;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+
+/*contact page*/
+/*contact form leave this alone*/
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  float:right;
+}
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+
+}
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #251e3e;
+  margin-top:1%;
+  margin-left:15%;
+  margin-right:15%;
+  padding-top:10px;
+  padding-right:15px;
+  padding-left:15px;
+}
+
+
+
+#contact_head {
+	margin-top:1%
+}
+
+.box_img {
+	width:50%;
+	margin-left:13%;
+	margin-right:10%;
+}
+
+.box_p {
+	float:right;
+	width:40%;
+	height:50%;
+	margin-top:-18%;
+	margin-right:20%;
+}
+
+#location{
+	float:left;
+	padding-left:150px;
+	font-size:10px;
+}
+
+.title {
+	padding-left:25px;
+}
